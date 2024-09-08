@@ -4,7 +4,6 @@ public class Department {
     private String departname;
     private ArrayList<Employee> employees;
 
-    // Constructor
     public Department(String departname) {
         this.departname = departname;
         this.employees = new ArrayList<>();
